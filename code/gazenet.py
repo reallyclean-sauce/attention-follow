@@ -4,8 +4,8 @@ import torch.optim as optim
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.nn import DataParallel
-import resnet as M
-import resnet_fpn as resnet_fpn
+import attentionfollow.code.resnet as M
+import attentionfollow.code.resnet_fpn as resnet_fpn
 
 
 # Feature Pyramid Network
