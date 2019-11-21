@@ -1,1 +1,1 @@
-from src.nms.non_maximum_suppression import non_maximum_suppression
+from attentionfollow.FCHD_adtitya.src.nms.non_maximum_suppression import non_maximum_suppression
