@@ -10,14 +10,14 @@ import ipdb
 import argparse
 import cv2
 
-from attentionfollow.FCHD_aditya.src.head_detector_vgg16 import Head_Detector_VGG16
-from attentionfollow.FCHD_aditya.trainer import Head_Detector_Trainer
-from attentionfollow.FCHD_aditya.src.config import opt
-import attentionfollow.FCHD_aditya.src.utils as utils 
-from attentionfollow.FCHD_aditya.data.dataset import Dataset, inverse_normalize
-import attentionfollow.FCHD_aditya.src.array_tool as at
-from attentionfollow.FCHD_aditya.src.vis_tool import visdom_bbox
-from attentionfollow.FCHD_aditya.src.bbox_tools import bbox_iou
+from attentionfollow.FCHD_adtitya.src.head_detector_vgg16 import Head_Detector_VGG16
+from attentionfollow.FCHD_adtitya.trainer import Head_Detector_Trainer
+from attentionfollow.FCHD_adtitya.src.config import opt
+import attentionfollow.FCHD_adtitya.src.utils as utils 
+from attentionfollow.FCHD_adtitya.data.dataset import Dataset, inverse_normalize
+import attentionfollow.FCHD_adtitya.src.array_tool as at
+from attentionfollow.FCHD_adtitya.src.vis_tool import visdom_bbox
+from attentionfollow.FCHD_adtitya.src.bbox_tools import bbox_iou
 
 dataset_name = 'hollywood'
 phases = ['train', 'val', 'test']

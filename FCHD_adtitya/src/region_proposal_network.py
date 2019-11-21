@@ -3,8 +3,8 @@ from torch.nn import functional as F
 import torch as t
 from torch import nn
 
-from attentionfollow.FCHD_aditya.src.bbox_tools import generate_anchor_base
-from attentionfollow.FCHD_aditya.src.creator_tool import ProposalCreator
+from attentionfollow.FCHD_adtitya.src.bbox_tools import generate_anchor_base
+from attentionfollow.FCHD_adtitya.src.creator_tool import ProposalCreator
 
 
 class RegionProposalNetwork(nn.Module):

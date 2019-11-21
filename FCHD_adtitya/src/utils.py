@@ -5,7 +5,7 @@ import os
 import glob
 import json
 import pickle
-from attentionfollow.FCHD_aditya.src.config import opt
+from attentionfollow.FCHD_adtitya.src.config import opt
 import cv2
 import matplotlib.pyplot as plt
 

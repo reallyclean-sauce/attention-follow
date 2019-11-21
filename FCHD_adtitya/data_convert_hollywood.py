@@ -10,7 +10,7 @@ from PIL import Image
 import numpy as np
 import cv2
 
-import attentionfollow.FCHD_aditya.src.utils as utils
+import attentionfollow.FCHD_adtitya.src.utils as utils
 
 PHASES = ['train', 'val', 'test']
 IMGS_PTH = './data/HollywoodHeads/JPEGImages'

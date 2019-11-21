@@ -2,9 +2,9 @@ import torch as t
 from torch import nn
 from torchvision.models import vgg16
 
-from attentionfollow.FCHD_aditya.src.region_proposal_network import RegionProposalNetwork
-from attentionfollow.FCHD_aditya.src.head_detector import Head_Detector
-from attentionfollow.FCHD_aditya.src.config import opt
+from attentionfollow.FCHD_adtitya.src.region_proposal_network import RegionProposalNetwork
+from attentionfollow.FCHD_adtitya.src.head_detector import Head_Detector
+from attentionfollow.FCHD_adtitya.src.config import opt
 
 def decom_vgg16():
     """ Load the default PyTorch model or the pre-trained caffe model. 

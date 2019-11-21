@@ -8,14 +8,14 @@ import matplotlib.pyplot as plt
 import argparse
 import time
 
-from attentionfollow.FCHD_aditya.src.config import opt
-from attentionfollow.FCHD_aditya.src.head_detector_vgg16 import Head_Detector_VGG16
-from attentionfollow.FCHD_aditya.trainer import Head_Detector_Trainer
-from attentionfollow.FCHD_aditya.data.dataset import preprocess
-import attentionfollow.FCHD_aditya.src.utils as utils
-from attentionfollow.FCHD_aditya.src.config import opt
-import attentionfollow.FCHD_aditya.src.array_tool as at
-from attentionfollow.FCHD_aditya.src.vis_tool import visdom_bbox
+from attentionfollow.FCHD_adtitya.src.config import opt
+from attentionfollow.FCHD_adtitya.src.head_detector_vgg16 import Head_Detector_VGG16
+from attentionfollow.FCHD_adtitya.trainer import Head_Detector_Trainer
+from attentionfollow.FCHD_adtitya.data.dataset import preprocess
+import attentionfollow.FCHD_adtitya.src.utils as utils
+from attentionfollow.FCHD_adtitya.src.config import opt
+import attentionfollow.FCHD_adtitya.src.array_tool as at
+from attentionfollow.FCHD_adtitya.src.vis_tool import visdom_bbox
 
 SAVE_FLAG = 0
 THRESH = 0.01

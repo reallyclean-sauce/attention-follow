@@ -9,10 +9,10 @@ from torch.autograd import Variable
 from torchnet.meter import ConfusionMeter, AverageValueMeter
 import os
 
-from attentionfollow.FCHD_aditya.src.creator_tool import AnchorTargetCreator
-import attentionfollow.FCHD_aditya.src.array_tool as at
-from attentionfollow.FCHD_aditya.src.vis_tool import Visualizer
-from attentionfollow.FCHD_aditya.src.config import opt
+from attentionfollow.FCHD_adtitya.src.creator_tool import AnchorTargetCreator
+import attentionfollow.FCHD_adtitya.src.array_tool as at
+from attentionfollow.FCHD_adtitya.src.vis_tool import Visualizer
+from attentionfollow.FCHD_adtitya.src.config import opt
 
 LossTuple = namedtuple('LossTuple',
                        ['rpn_loc_loss',

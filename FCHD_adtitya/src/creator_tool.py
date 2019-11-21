@@ -3,9 +3,9 @@
 import numpy as np
 import cupy as cp
 
-from attentionfollow.FCHD_aditya.src.bbox_tools import bbox2loc, bbox_iou, loc2bbox
-from attentionfollow.FCHD_aditya.src.nms import non_maximum_suppression
-import attentionfollow.FCHD_aditya.src.array_tool as at
+from attentionfollow.FCHD_adtitya.src.bbox_tools import bbox2loc, bbox_iou, loc2bbox
+from attentionfollow.FCHD_adtitya.src.nms import non_maximum_suppression
+import attentionfollow.FCHD_adtitya.src.array_tool as at
 
 class AnchorTargetCreator(object):
     def __init__(self,

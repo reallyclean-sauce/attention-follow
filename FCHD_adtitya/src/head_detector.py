@@ -6,11 +6,11 @@ import cupy as cp
 from torch import nn
 from torch.nn import functional as F
 
-from attentionfollow.FCHD_aditya.src import array_tool as at
-from attentionfollow.FCHD_aditya.src.bbox_tools import loc2bbox
-from attentionfollow.FCHD_aditya.src.nms import non_maximum_suppression
-from attentionfollow.FCHD_aditya.data.dataset import preprocess
-from attentionfollow.FCHD_aditya.src.config import opt
+from attentionfollow.FCHD_adtitya.src import array_tool as at
+from attentionfollow.FCHD_adtitya.src.bbox_tools import loc2bbox
+from attentionfollow.FCHD_adtitya.src.nms import non_maximum_suppression
+from attentionfollow.FCHD_adtitya.data.dataset import preprocess
+from attentionfollow.FCHD_adtitya.src.config import opt
 
 class Head_Detector(nn.Module):
     def __init__(self, extractor, rpn):
